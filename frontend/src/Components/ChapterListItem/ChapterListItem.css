@@ -1,0 +1,43 @@
+.chapter-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  max-width: clamp(200px,50vw,690px);
+  color: inherit;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: var(--second-color);
+  transition: background-color 0.2s ease;
+}
+
+.chapter-item:hover {
+  background-color: var(--hover-color);
+}
+
+.chapter-cover {
+  width: 120px;
+  object-fit: cover;
+}
+
+.chapter-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.chapter-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.chapter-author {
+  font-size: 14px;
+  color: #aaa;
+}
+.chapter-description {
+  font-size: 13px;
+  color: #ccc;
+  margin-top: 4px;
+  line-height: 1.4;
+}

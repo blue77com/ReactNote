@@ -1,0 +1,65 @@
+.reader-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: var(--second-color);
+  border-radius: var(--max-border-radius);
+  border: 0px solid transparent;
+}
+
+.reader-toolbar-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 0px solid transparent;
+  z-index: 10;
+}
+
+.reader-toolbar-controls button{
+  font-size: 0em;
+  border: 0px solid transparent;
+  height: 32px;
+  aspect-ratio: 1/1;
+  border-radius: var(--max-border-radius);
+  background-color: var(--main-color);
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../../assets/arrow.svg);
+}
+.left{
+  transform: scaleX(-1);
+}
+.PagesINFO{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: 0px solid;
+  border-radius: var(--max-border-radius);
+  height: 20px;
+  width: 100px;
+  padding: 8px;
+  background-color: var(--main-color);
+  font-family: var(--font-family);
+  cursor: pointer;
+}
+.page-input {
+  width: 40px;
+  text-align: center;
+  font-family: var(--font-family);
+  box-sizing: border-box;
+  height: 22px;
+}
+.PagesINFO span{
+  line-height: 10px;
+}
+button:hover {
+  background-color: var(--hover-color);
+  border: 0px solid transparent;
+}
+input:focus,
+button:focus {
+  outline: none;
+}

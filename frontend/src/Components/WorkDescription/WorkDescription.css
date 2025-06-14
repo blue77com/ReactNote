@@ -1,0 +1,53 @@
+.work-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 24px;
+  color: white;
+  border-radius: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.work1-description-container{
+  display: flex;
+  flex-direction: row;
+}
+.work-cover {
+  width: 100%;
+  max-width: 221px;
+  border-radius: 16px;
+  object-fit:contain;
+}
+.work-details {
+  padding: 0px 10px;
+}
+.work-title {
+  font-size: 5em;
+  font-weight: bold;
+  line-height: 54px;
+  min-width: 150px; 
+}
+
+.work-author {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.work-ratios {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.work-ratio-chip {
+  background-color: #333;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 1.2em;
+}
+
+.work-full-description p{
+  margin: 0;
+  text-align: justify; 
+}
