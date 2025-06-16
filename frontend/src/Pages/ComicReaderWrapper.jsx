@@ -5,7 +5,7 @@ import PasswordGate from "../Components/PasswordGate/PasswordGate";
 
 export default function ComicReaderWrapper() {
   const { workId, releaseId } = useParams();
-  const contentPath = `${workId}/${releaseId}`; // например "theMaxx/release-2"
+  const contentPath = `${workId}/${releaseId}`; // "theMaxx/release-2"
 
   const [meta, setMeta] = useState(null);
   const [accessGranted, setAccessGranted] = useState(false);

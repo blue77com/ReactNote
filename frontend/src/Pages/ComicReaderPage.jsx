@@ -39,7 +39,6 @@ export default function ComicReaderPage({ contentPath }) {
           author: data.author || ""
         });
 
-        // Загружаем допустимые форматы
         if (Array.isArray(data.ratios)) {
           setAvailableRatios(data.ratios);
         } else {
@@ -53,7 +52,6 @@ export default function ComicReaderPage({ contentPath }) {
       });
   }, [contentPath]);
 
-  // 2. Проверка: если выбранный формат недоступен
   useEffect(() => {
     if (!availableRatios.includes(aspectRatio)) {
       setAspectRatio(availableRatios[0] || "default");
