@@ -18,7 +18,6 @@ export default function ChapterListItem({ chapterPath }) {
 
   const coverPath = `/${chapterPath}/cover.jpg`;
 
-  // Разделяем путь, например: "theMaxx/release-1"
   const [workId, releaseId] = chapterPath.split("/");
 
   return (
