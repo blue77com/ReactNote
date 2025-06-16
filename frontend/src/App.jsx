@@ -10,8 +10,6 @@ export default function App() {
       <Routes>
         <Route path="/" element={<SearchPage />} />
         <Route path="/:workId" element={<WorkPage />} />
-        {/* Добавляй другие страницы по мере необходимости */}
-        <Route path="*" element={<p style={{ padding: "40px" }}>Страница не найдена</p>} />
         <Route path="/reader/:workId/:releaseId" element={<ComicReaderWrapper />} />
         <Route path="/auth" element={<LoginRegisterForm />} />
       </Routes>
