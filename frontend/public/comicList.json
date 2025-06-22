@@ -1,0 +1,65 @@
+[
+  {
+    "workTitle": "The MAXX",
+    "firstAuthor": "Sam Kieth",
+    "ratios": ["default"],
+    "cover": "cover.jpg",
+    "path": "themaxx"
+  },
+  {
+    "workTitle": "Biotech",
+    "firstAuthor": "Game",
+    "ratios": ["4:3", "16:9", "21:9", "default"],
+    "cover": "cover.png",
+    "path": "biotech"
+  },
+  {
+    "workTitle": "Biotech",
+    "firstAuthor": "Game",
+    "ratios": ["4:3", "16:9", "21:9", "default"],
+    "cover": "cover.png",
+    "path": "biotech"
+  },
+  {
+    "workTitle": "Biotech",
+    "firstAuthor": "Game",
+    "ratios": ["4:3", "16:9", "21:9", "default"],
+    "cover": "cover.png",
+    "path": "biotech"
+  },
+  {
+    "workTitle": "Biotech",
+    "firstAuthor": "Game",
+    "ratios": ["4:3", "16:9", "21:9", "default"],
+    "cover": "cover.png",
+    "path": "biotech"
+  },
+  {
+    "workTitle": "The MAXX",
+    "firstAuthor": "Sam Kieth",
+    "ratios": ["default"],
+    "cover": "cover.jpg",
+    "path": "themaxx"
+  },
+  {
+    "workTitle": "The MAXX",
+    "firstAuthor": "Sam Kieth",
+    "ratios": ["default"],
+    "cover": "cover.jpg",
+    "path": "themaxx"
+  },
+  {
+    "workTitle": "The MAXX",
+    "firstAuthor": "Sam Kieth",
+    "ratios": ["default"],
+    "cover": "cover.jpg",
+    "path": "themaxx"
+  },
+  {
+    "workTitle": "Biotech",
+    "firstAuthor": "Game",
+    "ratios": ["4:3", "16:9", "21:9", "default"],
+    "cover": "cover.png",
+    "path": "biotech"
+  }
+]
