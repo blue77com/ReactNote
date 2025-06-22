@@ -1,0 +1,81 @@
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-container {
+  width: 320px;
+  padding: 20px;
+  background-color: #2e2e2e;
+  border-radius: 12px;
+  font-family: sans-serif;
+  color: white;
+  margin: auto;
+}
+
+.auth-tabs {
+  display: flex;
+  gap: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #444;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.auth-tabs .active-tab {
+  font-weight: bold;
+  color: white;
+}
+
+.auth-tabs .inactive-tab {
+  color: #999;
+}
+
+.auth-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  width: -webkit-fill-available;
+}
+
+.forgot-link {
+  font-weight: normal;
+  font-size: 0.9em;
+  color: var(--link-color);
+  float: right;
+}
+
+.remember-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  background-color: var(--link-color);
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #4373db;
+}

@@ -1,0 +1,51 @@
+.hover-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: fit-content;
+  background-color: #242424;
+  color: white;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  z-index: 1000;
+  transition: opacity 0.3s ease;
+  border-radius: 0 0 12px 0;
+  font-size: 18px;
+}
+
+.hover-header.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.hover-header.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hover-header select {
+  background-color: #2c2c2c;
+  font-size: 0.9em;
+  color: white;
+  padding: 6px;
+  border-radius: 8px;
+  border: 1px solid #555;
+}
+
+.hover-header .info {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.hover-header .info-title {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.hover-header .info-subtitle {
+  font-size: 0.9em;
+}

@@ -1,0 +1,6 @@
+services:
+  app:
+    build:
+      context: ./frontend
+    ports:
+      - "2626:2126"
